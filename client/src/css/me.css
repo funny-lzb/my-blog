@@ -1,0 +1,60 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    top: 50%;
+    height: 100vh;
+    background-color: #04d4f0 !important;
+}
+
+.photo{
+    margin-top: 8vw;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.photo img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+
+.self-introduction{
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1.15em;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #fff;
+}
+
+.resource{
+    padding-left: 40vw !important;
+    padding-right: 40vw;
+    padding-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.resource li{
+    display:inline-block;
+    flex: none;
+    margin:auto;
+    width: 2rem;
+    height: 2rem;
+}
+
+.resource li a{
+    border-radius: 50%;
+    display: block;
+    width: 100%;
+    height: 2em;
+}   
+
+.resource li a svg{
+    width: 100%;
+    height: 100%;
+}
+

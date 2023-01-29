@@ -1,0 +1,81 @@
+.resume{
+    width: 50vw;
+    height: 50vh;
+    margin:  auto 20vw;
+    margin-top: 10vh;
+}
+
+
+.resume-overview-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume-overview-body{
+    margin-top: 5vh;
+}
+
+.resume-overview-button{
+    border: none !important;
+    line-height: 2 !important;
+    text-align: center !important;
+    background-color: #0d9dfd !important;
+    font-weight: 700 !important;
+}
+
+.resume-education{
+    margin-top: 5vh;
+}
+
+.resume-education-content h3{
+    font-weight: 500;
+    line-height: 1.25
+}
+
+.nav_side {
+    top: 20vh !important;
+    left: 94%;
+    width: 80px;
+    height: 50vh;
+    background-color: #fff;
+    border-radius: 18px 0 0 18px;
+}
+
+.nav_side ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.nav_side ul li {
+    height: 10vh;
+    text-align: center;
+    line-height: 3;
+    border-radius: 18px 0 0 18px;  
+} 
+
+.nav_side ul li:hover{
+    background-color: #0d9dfd ;
+}
+
+.nav_side a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav_side a:hover{
+    color: #fff;
+}
+
+.backTop {
+    display: none;
+}
+
+
+
+
+    
+
+

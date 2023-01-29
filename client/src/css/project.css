@@ -1,0 +1,19 @@
+.add-color{
+   color: #0d6efd !important;
+}
+
+.project{
+    width: 50vw;
+    height: 50vh;
+    margin: auto 20vw;
+    margin-top: 10vh;
+}
+
+.project-list>li{
+    margin-bottom: 10vh;
+}
+
+
+.project a:hover{
+    text-decoration: underline !important;
+}
