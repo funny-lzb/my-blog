@@ -6,6 +6,8 @@
 @import './hobby.css';
 @import './tracksearchresult.css';
 @import './music.css';
+@import './life.css';
+@import './login.css';
 
 *, *::before, *::after {
     box-sizing: border-box;

@@ -1,8 +1,6 @@
 .content{
     display: flex;
     flex-direction: column;
-    left: 50%;
-    top: 50%;
     height: 100vh;
     background-color: #04d4f0 !important;
 }
@@ -58,3 +56,10 @@
     height: 100%;
 }
 
+.resource li svg{
+    fill: #1e47ff;
+}
+
+.resource li svg:hover{
+    fill: #fff;
+}

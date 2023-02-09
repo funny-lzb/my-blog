@@ -1,10 +1,9 @@
 .resume{
     width: 50vw;
-    height: 50vh;
-    margin:  auto 20vw;
-    margin-top: 10vh;
+    min-height: 50vh ;
+    margin: 10vh auto;
+    padding-bottom: 10vh;
 }
-
 
 .resume-overview-head{
     display: flex;
@@ -29,7 +28,7 @@
 
 .resume-education-content h3{
     font-weight: 500;
-    line-height: 1.25
+    line-height: 1.25;
 }
 
 .nav_side {

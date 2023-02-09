@@ -34,7 +34,7 @@ export default function ResumeAnchor() {
       navSideRef.current.style.position = 'absolute'
     }
 
-    if (document.documentElement.scrollTop >= 700) {
+    if (document.documentElement.scrollTop >= 500) {
       backTopRef.current.style.display = 'block'
     } else {
       backTopRef.current.style.display = 'none'

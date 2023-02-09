@@ -4,9 +4,9 @@
 
 .project{
     width: 50vw;
-    height: 50vh;
-    margin: auto 20vw;
-    margin-top: 10vh;
+    min-height: 50vh;
+    margin: 10vh auto;
+    padding-bottom: 10vh;
 }
 
 .project-list>li{

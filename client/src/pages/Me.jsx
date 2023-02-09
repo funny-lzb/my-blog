@@ -4,7 +4,7 @@ export default function Me() {
       <div className='photo'>
         <img src='/imgs/head.jpg'></img>
       </div>
-      <h1 className='self-introduction'>Hello, I'm Peter</h1>
+      <h1 className='self-introduction'>Hello,I'm Peter</h1>
       <ul className='resource'>
         <li>
           <a href='https://github.com/funny-lzb' alt='Github'>

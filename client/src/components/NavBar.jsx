@@ -13,8 +13,9 @@ export function NavBar() {
             <Nav.Link to='/resume'  as={NavLink}>简历</Nav.Link>
             <Nav.Link to='/projects'  as={NavLink}>项目</Nav.Link>
             <Nav.Link to='/blogs'  as={NavLink}>博客</Nav.Link>
-            <Nav.Link to='/hobby'  as={NavLink}>爱好</Nav.Link>
+            <Nav.Link to='/hobby'  as={NavLink}>音乐</Nav.Link>
             <Nav.Link to='/mapbox'  as={NavLink}>地图</Nav.Link>
+            <Nav.Link to='/life'  as={NavLink}>生活</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

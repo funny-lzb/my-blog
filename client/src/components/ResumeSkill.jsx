@@ -13,8 +13,6 @@ export default function ResumeSkill() {
           <div className="fw-bold">HTML CSS (熟练度A)</div>
           <span>熟练掌握常用的html 5标签,掌握块级、行内块、行内标签之间的区别</span>
           <br />
-          <span>喜欢在JS中用template标签克隆部分重复的DOM元素来构建页面</span>
-          <br />
           <span>熟练现代CSS3,精通flex(弹性)布局,熟悉媒体查询</span>
         </div>
       </ListGroup.Item>
@@ -60,7 +58,7 @@ export default function ResumeSkill() {
         className="d-flex justify-content-between align-items-start"
       >
         <div className="ms-2 me-auto">
-          <div className="fw-bold">npm Git Github Netlify (熟练度 B+)</div>
+          <div className="fw-bold">npm Git Github Netlify (熟练度 A)</div>
           了解常用的npm,git指令,会部署项目到Github和Netlify上
         </div>
       </ListGroup.Item>
