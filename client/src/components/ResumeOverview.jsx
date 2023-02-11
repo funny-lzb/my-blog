@@ -5,8 +5,8 @@ export default function ResumeOverview() {
     <div className='resume-overview'>
       <div className='resume-overview-head'>
         <h2>概述</h2>
-        <Button href='#' className='resume-overview-button'>
-          下载简历
+        <Button href='resume/my-resume.pdf' download className='resume-overview-button'>
+        下载英文简历
         </Button>
       </div>
       <p className='resume-overview-body'>
