@@ -18,8 +18,7 @@ export default function Life() {
         url='video/game.mp4'
         controls
         volume="0.6"
-        style={{ marginLeft: "26vw"
-      }}
+        className="react-player"
       />
       <h3 className='title center-x'>座右铭：</h3>
       <div className='motto'>

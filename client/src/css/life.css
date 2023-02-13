@@ -2,9 +2,14 @@
     margin-top: -10vh;
     background-color: #04d4f0;
 }
+
 .center-x{ 
     margin:  10vh 20vw 1vh 20vw!important;
     font-weight: 550;
+}
+
+.react-player{
+    margin: 0 auto;
 }
 
 .life{
