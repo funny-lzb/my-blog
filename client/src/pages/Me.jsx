@@ -2,7 +2,7 @@ export default function Me() {
   return (
     <div className='content'>
       <div className='photo'>
-        <img src='/imgs/head.jpg'></img>
+        <img src='/imgs/head.jpg' className="my-photo"></img>
       </div>
       <h1 className='self-introduction'>Hello,I'm Peter</h1>
       <ul className='resource'>
