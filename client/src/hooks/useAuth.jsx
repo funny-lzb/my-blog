@@ -14,18 +14,18 @@ export default function useAuth(code) {
     // console.log('code changes')
 
     axios
-      .post("http://localhost:5174/login", {
+      .post("https://test1.leftover.cn/api/login", {
         code:code
       })
       .then(res => {
         setAccessToken(res.data.accessToken)
         setRefreshToken(res.data.refreshToken)
         setExpiresIn(res.data.expiresIn)
-        window.history.pushState({}, null, "/")
+        // window.history.pushState({}, null, "/")
       })
       .catch(err => {
         console.log(err)
-        window.location = "/"
+        // window.location = "/"
       })
   }, [code])
 
@@ -33,7 +33,7 @@ export default function useAuth(code) {
     if (!refreshToken || !expiresIn) return
     const interval = setInterval(() => {
     axios
-    .post("http://localhost:5174/refresh", {
+    .post("https://test1.leftover.cn/api/refresh", {
       refreshToken,
     })
     .then(res => {
@@ -41,7 +41,7 @@ export default function useAuth(code) {
       setExpiresIn(res.data.expiresIn)
     })
     .catch(() => {
-      window.location = "/"
+      // window.location = "/"
     })
   },(expiresIn - 60) * 1000)
 

@@ -27,7 +27,7 @@ export default function Dashboard({ code }) {
     if (!playingTrack) return
 
     axios
-      .get("http://test.leftover.cn:5174", {
+      .get("https://test1.leftover.cn/api/lyrics", {
         params: {
           track: playingTrack.title,
           artist: playingTrack.artist
