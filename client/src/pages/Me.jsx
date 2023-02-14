@@ -34,6 +34,16 @@ export default function Me() {
           </a>
         </li>
       </ul>
+      <div className="objects">
+        <ul className="box">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
     </div>
   )
 }
