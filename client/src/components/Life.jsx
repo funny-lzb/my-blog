@@ -10,15 +10,17 @@ export default function Life() {
   }
 
   return (
-    <div className="bgc">
-    <h3 className='title center-x' style={{paddingTop:'10vh'}}>剪辑视频：</h3>
+    <div className='bgc'>
+      <h3 className='title center-x' style={{ paddingTop: "10vh" }}>
+        剪辑视频：
+      </h3>
       <ReactPlayer
         width='600px'
         height='365px'
         url='video/game.mp4'
         controls
-        volume="0.6"
-        className="react-player"
+        volume='0.6'
+        className='react-player'
       />
       <h3 className='title center-x'>座右铭：</h3>
       <div className='motto'>
@@ -101,7 +103,7 @@ export default function Life() {
             />
 
             <Carousel.Caption>
-              <h3>在东莞</h3>
+              <h3>在武汉</h3>
               <p>记录一下我的鸭腿饭</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -113,8 +115,8 @@ export default function Life() {
             />
 
             <Carousel.Caption>
-              <h3>在东莞</h3>
-              <p>下班时拍的</p>
+              <h3>在武汉</h3>
+              <p>回家时拍的</p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
