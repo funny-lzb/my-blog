@@ -1,8 +1,10 @@
+import SkillBox from '../components/SkillBox'
+
 export default function Me() {
   return (
     <div className='content'>
       <div className='photo'>
-        <img src='/imgs/head.jpg' className="my-photo"></img>
+        <img src='/imgs/head.jpg' className='my-photo'></img>
       </div>
       <h1 className='self-introduction'>Hello,I'm Peter</h1>
       <ul className='resource'>
@@ -14,7 +16,7 @@ export default function Me() {
           </a>
         </li>
         <li>
-          <a href="https://www.zhihu.com/people/lzb123-78/posts" alt='Zhihu'>
+          <a href='https://www.zhihu.com/people/lzb123-78/posts' alt='Zhihu'>
             <svg
               t='1674575293678'
               class='icon'
@@ -34,8 +36,16 @@ export default function Me() {
           </a>
         </li>
       </ul>
-      <div className="objects">
-        <ul className="box">
+      <div></div>
+      <hr
+        style={{
+          border: ' none',
+          borderTop: '0.5px solid blue',
+        }}
+      />
+      <SkillBox />
+      <div className='objects'>
+        <ul className='box'>
           <li></li>
           <li></li>
           <li></li>
