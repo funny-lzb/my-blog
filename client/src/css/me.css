@@ -165,3 +165,18 @@
         opacity: 0;
     }
 }
+
+.card{
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+  }
+
+.card .card-img-top:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.05);
+  }

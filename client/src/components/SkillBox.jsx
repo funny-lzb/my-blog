@@ -30,7 +30,7 @@ export default function SkillBox() {
         </div>
         <div className='skill-item'>
           <div className='skill-name'>JavaScript</div>
-          <ProgressBar now={95} />
+          <ProgressBar now={90} />
         </div>
         <div className='skill-item'>
           <div className='skill-name'>React</div>
@@ -42,11 +42,11 @@ export default function SkillBox() {
         </div>
         <div className='skill-item'>
           <div className='skill-name'>webpack</div>
-          <ProgressBar now={50} />
+          <ProgressBar now={40} />
         </div>
         <div className='skill-item'>
           <div className='skill-name'>后端</div>
-          <ProgressBar now={10} />
+          <ProgressBar now={15} />
         </div>
       </div>
       <h2

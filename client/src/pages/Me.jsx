@@ -1,4 +1,5 @@
 import SkillBox from '../components/SkillBox'
+import ScollToTop from '../components/ScollToTop'
 
 export default function Me() {
   return (
@@ -44,6 +45,7 @@ export default function Me() {
         }}
       />
       <SkillBox />
+      <ScollToTop />
       <div className='objects'>
         <ul className='box'>
           <li></li>
