@@ -2,7 +2,7 @@ import React from 'react'
 import WorkList from './WorkList'
 import FutureSee from './FutureSee'
 import { ProgressBar } from 'react-bootstrap'
-import UseFadeInUp from '../hooks/useFadeInUp'
+import UseFadeInUp from '../hooks/UseFadeInUp'
 
 export default function SkillBox() {
   return (
