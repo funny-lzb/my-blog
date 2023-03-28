@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react'
 import '../css/fadeIn.css'
 
 export default function UseFadeInUp({ targetPosition, children }) {
-  const [isVisible, setIsVisible] = useState(false)
   const targetRef = useRef(null)
 
   useEffect(() => {
@@ -11,7 +10,6 @@ export default function UseFadeInUp({ targetPosition, children }) {
     const handleScroll = () => {
       const currentPosition = window.pageYOffset + window.innerHeight
       if (currentPosition >= targetPosition) {
-        setIsVisible(true)
         targetRef.current.classList.add('fade-in-up')
       }
     }
