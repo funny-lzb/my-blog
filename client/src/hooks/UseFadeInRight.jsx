@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, {  useEffect, useRef } from 'react'
 import '../css/fadeIn.css'
 
 export default function UseFadeInRight({ targetPosition, children }) {
