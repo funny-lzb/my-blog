@@ -1,0 +1,53 @@
+.fade-in-up {
+    position: relative;
+    animation-name: fade-in;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+/* 应用动画 */
+.fade-in-left {
+  animation: fadeInLeft 1s ease-in;
+}
+
+/* 定义动画 */
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* 应用动画 */
+.fade-in-right {
+  animation: fadeInRight 1.5s ease-in;
+}
+
+/* 定义动画 */
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
