@@ -1,6 +1,7 @@
 .content{
     display: flex;
     flex-direction: column;
+    width: 100vw;
     height: 100%;
     background-color: #04d4f0 !important;
 }
@@ -36,7 +37,6 @@
 }
 
 .self-introduction{
-    margin: auto 37vw;
     background: linear-gradient(170deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4,#ff0000);
     background-size: 400%;
     padding-top: 2rem;
@@ -45,7 +45,6 @@
     font-weight: 700;
     line-height: 1.15em;
     font-family: "Source Sans Pro", sans-serif;
-    color: #fff;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     animation: color-change 10s linear infinite;

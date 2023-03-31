@@ -19,6 +19,10 @@
     margin-bottom: .5em;
 }
 
+.blog{
+    display: grid;
+    place-items: center;
+}
 .blog-items-list p{
     margin-top: 1em;
 }

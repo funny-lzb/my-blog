@@ -1,5 +1,7 @@
 import SkillBox from '../components/SkillBox'
 import ScollToTop from '../components/ScollToTop'
+import MusicDemonstration from '../components/MusicDemonstration'
+import UseFadeInUp from '../hooks/UseFadeInUp'
 
 export default function Me() {
   return (
@@ -45,6 +47,9 @@ export default function Me() {
         }}
       />
       <SkillBox />
+      <UseFadeInUp targetPosition={2000}>
+        <MusicDemonstration />
+      </UseFadeInUp>
       <ScollToTop />
       <div className='objects'>
         <ul className='box'>
